@@ -1,34 +1,18 @@
+.photo-1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
 
-:root {}
-  // get a paragraph which is a first child
-// p:first-child {
-//   color: #f11
-// }
+.photo-2 {
+  // width: 300px;
+  // height: 500px;
+  object-fit: cover;
+  // width: 450px;
+  height: 300px;
+  aspect-ratio: 4/3;
+}
 
-// p:last-child {
-//   color: #00f
-// }
-
-// p:nth-child(3) {
-//   background-color: #f11;
-// }
-
-// p:first-of-type {
-//   background-color: #f11;
-// }
-
-// p:not(.text) {
-//   background-color: #f11;
-// }
-
-// p:empty {
-//   border: 10px solid
-// }
-
-// p + h2 {
-//   background-color: #f11;
-// }
-
-// p ~ p {
-//   background-color: yellow;
-// }
+.border, figure {
+  border: 5px solid
+}
