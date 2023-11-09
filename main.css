@@ -1,0 +1,50 @@
+h1 {
+  color: #f99;
+  font-weight: 700;
+  font-size: 4em;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+header nav.navigation {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: #f99;
+}
+@media (min-width: 1000px) {
+  header nav.navigation {
+    background-color: #000;
+    color: #fff;
+  }
+}
+header nav.navigation a {
+  font-size: 2em;
+  color: #fff;
+}
+header nav.navigation a:hover {
+  color: #000;
+}
+
+.text {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #f11;
+  border-radius: 20px;
+}
+.text p {
+  background-color: #f99;
+}
+@media (min-width: 1000px) {
+  .text p {
+    color: rgb(156, 12, 156);
+  }
+}/*# sourceMappingURL=main.css.map */

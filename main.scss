@@ -1,0 +1,111 @@
+// :root {
+//   --brand: #f66;
+// }
+// h1 {
+//   color: var(--brand);
+//   text-decoration: underline;
+//   font-size: 4em;
+//   text-align: center;
+// }
+
+$brand: #f99;
+$font-weight: 700;
+$anyname: 24px;
+
+h1 {
+  color: $brand;
+  // font-weight: 700;
+  // font-size: 4em;
+  // font-style: italic;
+  // font-family:'Times New Roman', Times, serif;
+  font: {
+    weight: 700;
+    size: 4em;
+    style: italic;
+    family: 'Times New Roman', Times, serif;
+  }
+
+  // text-decoration: underline;
+  // text-transform: uppercase;
+  // text-align: center;
+  text : {
+    decoration: underline;
+    transform: uppercase;
+    align: center
+  }
+}
+
+//  i can write as much comment as i want
+p {
+  font-weight: $font-weight;
+  font-size: $anyname;
+}
+
+// this is how scss nesting work
+header {
+  nav.navigation {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: $brand;
+    @media (min-width: 1000px) {
+      background-color: #000;
+      color: #fff;
+    }
+    a {
+      font-size: 2em;
+      color: #fff;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+.text {
+  // border: 3px solid #f11;
+  border: {
+    style: solid;
+    width: 3px;
+    color: #f11;
+    radius: 20px;
+  }
+  p {
+    background-color: $brand;
+    @media(min-width: 1000px) {
+      color: rgb(156, 12, 156)
+    }
+  }
+}
+
+// header nav.navigation {
+//   background-color: #f33;
+//   height: 200px;
+//   line-height: 200px;
+//   text-align: center;
+// }
+
+// nav.navigation a {
+//   color: #fff;
+//   margin: 0 30px;
+//   font-size: 2em
+// }
+
+// nav.navigation a:hover {
+//   color: #000;
+// }
+
+// @media (min-width: 1000px) {
+//   header nav.navigation {
+//     background-color: #000;
+//     color: #fff
+//   }
+// }
+
+// .text {
+//   border:3px solid #f11;
+// }
+
+// .text p {
+//   background-color: #eee;
+// }
