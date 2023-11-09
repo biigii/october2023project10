@@ -1,0 +1,35 @@
+$color: #f11;
+
+body {
+  // background-image: url(https://picsum.photos/id/100/10);
+  background-image: linear-gradient(90deg, transparent 0%, transparent 12%, rgb(243,197,147) 12%, rgb(243,197,147) calc(12% + 2px), transparent calc(12% + 2px), transparent calc(12% + 6px), rgb(243,197,147) calc(12% + 6px), rgb(243,197,147) calc(12% + 8px), transparent calc(12% + 8px), transparent 100%), linear-gradient(180deg, rgb(251,238,159) 12%, transparent 12%), repeating-linear-gradient(180deg, rgb(201,215,152) 0px, rgb(201,215,152) 2px, transparent 2px, transparent 32px), linear-gradient(rgb(251,238,159),rgb(251,238,159));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background {
+  border: 1px solid;
+  width: 500px;
+  height: 500px;
+  // background-color: $color;
+  // background-image: url(https://picsum.photos/id/71/100/200);
+  // background-image: url(https://picsum.photos/id/71/500/500),
+  //   url(https://picsum.photos/id/72/500/500),
+  //   url(https://picsum.photos/id/73/500/500);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // contain cover
+  // background-size: cover;
+  // background-image: linear-gradient(#f11, rgb(0, 0, 0), yellow, blue);
+  // background-image: linear-gradient(-45deg, #f11, #000);
+  // background-image: linear-gradient(#f11, #f11 50%, #000 50%, #000);
+  // background-image: radial-gradient(#f11, #000, #00f);
+  // background: conic-gradient(
+  //   red 20%,
+  //   orange 20%,
+  //   yellow 40%,
+  //   green 40%,
+  //   blue 40%,
+  //   blue
+  // );
+}
