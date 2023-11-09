@@ -1,0 +1,9 @@
+@use "./variables" as var;
+
+body {
+  background-color: #f99;
+}
+
+p {
+  background-color: var.$secondary-color;
+}

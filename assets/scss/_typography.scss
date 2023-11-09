@@ -1,0 +1,6 @@
+@use './variables' as v;
+
+h1 {
+  font-size: 4em;
+  color: v.$brand;
+}

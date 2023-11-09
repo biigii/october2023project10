@@ -1,7 +1,2 @@
-  "liveSassCompile.settings.formats": [
-    {
-      "extensionName": ".min.css",
-      "format": "compressed",
-      "savePath": "./assets/css"
-    }
-  ],
+- https://codepen.io/behshad/pen/WNaZVVQ
+- https://sass-lang.com/guide/
